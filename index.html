@@ -32,10 +32,10 @@
 <body class="bg-white">
   <!-- navbar -->
   <nav class="flex navbar justify-between items-center  p-3 ">
-    <div class="logo ml-12 ">
-      <img src="./assets/paytm_logo.png" alt="" width="200px">
+    <div class="logo w-[130px] ml-1 md:ml-12 md:w-[200px] ">
+      <img src="./assets/paytm_logo.png" alt="" >
     </div>
-    <div class="flex navlist w-1/2  justify-between text-lg font-semibold ">
+    <div class="hidden md:flex navlist w-1/2  justify-between text-lg font-semibold ">
       <ul class="flex list-none  w-full justify-between ">
         <li>Paytm For Customer</li>
         <li>Paytm For Business</li>
@@ -44,40 +44,43 @@
         <li>Career</li>
       </ul>
     </div>
-    <div class="flex button  rounded-full w-28 pl-3 justify-between mr-12 bg-myblue">
-      <button class="flex justify-between items-center text-lg font-semibold text-white bg-myblue">Sign In </button>
+    <div class="flex button  rounded-full w-20 md:w-28 pl-3 justify-between mr-1 md:mr-12 bg-myblue">
+      <button class="flex justify-between items-center text-sm md:text-lg font-semibold text-white bg-myblue">Sign In </button>
       <img class="flex" src="./assets/9a65db05.svg" alt="">
     </div>
   </nav>
   <!-- navbar ends -->
-  <div class="tagline flex justify-center p-3">
-    <p><span class="font-semibold">No Wallet KYC Required😊</span> <span class="font-normal">to pay using UPI on Paytm.</span><span class="font-semibold">Learn More.</span> </p>
+  <div class="tagline flex flex-row w-full justify-around md:justify-center items-center p-3  text-center">
+    <span class="flex flex-col font-semibold">No Wallet KYC Required</span> <span class="flex flex-col font-normal">😊to pay using UPI on Paytm.</span><span class="flex flex-col font-semibold">Learn More.</span> 
   </div>
 
   <!-- 1st part -->
 
-  <div class="first-part flex flex-row  mt-24">
+  <div class="first-part flex flex-row md:flex-row  mt-24">
    
-    <div class="flex  flex-col w-full ml-24">
+    <div class="flex  flex-col w-full ml-0 md:ml-24">
       <div class="flex logo-1 mt-8">
-        <img src="./assets/paytm se upi.png" alt="" class="logo-1-image flex flex-row w-20">
+        <img src="./assets/paytm se upi.png" alt="" class="logo-1-image flex flex-row w-20 ">
       </div>
-      <h1 class="flex text-6xl font-bold mt-16 font-inter">India's Most-loved <br> Payments App</h1>
-      <p class="flex text-xl py-3 font-semibold ">Recharge & pay bills, book flights & movie tickets, <br> open a savings account, invest in stocks & mutual <br> funds, and do a lot more.</p>
-      <button class="flex  rounded-full justify-between mt-12 w-72 mb-8 border-2 b0rder-black-800 pt-3 pb-3 pl-6 pr-6 text-white gont-semibold bg-black w-64 items-center ">Download Paytm App <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="white"></path></svg>  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="white"></path></svg></button>
+      <h1 class="flex text-4xl md:text-6xl font-bold mt-16 font-inter self-center md:self-start">India's Most-loved <br> Payments App</h1>
+      <div class="flex justify-end w-full mt-10 mb-4 md:hidden">
+        <img src="./assets//mobile image 1.webp" alt="" class="flex flex-row w-3/4 ">
+      </div>
+      <p class="flex text-md md:text-xl py-3 font-semibold self-center md:self-start ">Recharge & pay bills, book flights & movie tickets, <br> open a savings account, invest in stocks & mutual <br> funds, and do a lot more.</p>
+      <button class="flex  rounded-full justify-between mt-12 w-72 mb-8 border-2 b0rder-black-800 pt-3 pb-3 pl-6 pr-6 text-white gont-semibold bg-black w-64 items-center self-center md:self-start ">Download Paytm App <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="white"></path></svg>  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="white"></path></svg></button>
      </div>
 
-    <div class="flex justify-end w-full">
+    <div class="hidden md:flex justify-end w-full">
       <img src="./assets//mobile image 1.webp" alt="" class="flex flex-row w-3/4 ">
     </div>
   </div>
   <!-- First part ends here -->
   <!-- second port starts -->
-  <div class="second-part flex flex-col bg-myblue p-24 text-white">
+  <div class="second-part flex flex-col bg-myblue p-10 md:p-24 text-white">
     <div class="second-part-heading ">
-      <h1 class="flex text-4xl font-bold p-8">Recharge & Pay Bills on Paytm.</h1>
+      <h1 class="flex text-2xl  md:text-4xl font-bold p-4 md:p-8">Recharge & Pay Bills on Paytm.</h1>
     </div>
-    <div class="second-part-cards flex flex-row justify-around ">
+    <div class="second-part-cards flex flex-row flex-wrap justify-around gap-12">
       <div class="flex mobile-rec flex-col justify-center ">
         <img src="./assets/recharge.png" alt="" width="70px">
         <h4 class="flex ml-1 mt-3">Recharge <br> Prepaid <br>Mobile</h4>
@@ -118,13 +121,13 @@
   
   <!-- third part starts -->
   
-  <div class="third-part flex flex-col bg-myblue2 p-24 text-white font-bold">
+  <div class="third-part flex flex-col bg-myblue2 p-10 md:p-24 text-white font-bold">
     
     <div class="third-part-heading">
-      <h1 class="flex text-4xl font-bold p-8">Book & Buy on Paytm.</h1>
+      <h1 class="flex text-2xl md:text-4xl font-bold p-8">Book & Buy on Paytm.</h1>
     </div>
     
-    <div class="third-part-cards flex flex-row justify-around ">
+    <div class="third-part-cards flex flex-row flex-wrap gap-12 justify-around ">
       <div class="flex movie-tickets flex-col justify-center ">
         <img src="./assets/movie tickets.png" alt="" width="70px">
         <h4 class="flex ml-1 mt-3">Movie <br>Tickets</h4>
@@ -162,28 +165,31 @@
   <!-- fourth part starts here -->
   
   <div class="fourth-part flex flex-col bg-mygray1 ">
-    <div class="fourth-part-row-1 heading flex flex-row">
-      <h1 class="text-5xl text-black font-bold w-full pl-44 pt-24 ">Paytm Payment Instruments</h1>
+    <div class="fourth-part-row-1 heading flex flex-col md:flex-row">
+      <h1 class="text-2xl md:text-5xl text-black font-bold w-full p-12 md:pl-44 md:pt-24 ">Paytm Payment Instruments</h1>
     </div>
     
     <!-- fourth part row 2 -->
     
-    <div class="fourth-part-row-2 flex flex-row w-3/4 self-center mt-8 rounded-xl bg-white ">
+    <div class="fourth-part-row-2 flex flex-col md:flex-row w-3/4 self-center mt-8 rounded-xl bg-white ">
       
       <!-- fourth part row 2  col 1-->
       
       <div class="fourth-part-row-2-col-1 flex flex-col w-full">
         <div class="img-head flex flex-row">
-          <img src="./assets/wallet logo.png" alt="" width="80px" class="paytm-wallet flex flex-row mt-24 ml-24 ">
+          <img src="./assets/wallet logo.png" alt="" width="80px" class="paytm-wallet flex flex-row mt-24 ml-1 md:ml-24 ">
           <h3 class="paytm-wallet flex flex-row mt-24 font-bold items-center ml-3">Paytm <br>Wallet</h3>
         </div>
-        <h1 class="flex flex-row text-4xl font-bold mt-16 ml-24">The Fastest Way to <br> Pay In-store & Online.</h1>
-        <p class="flex flex-row  text-lg mt-3 ml-24">Load up your Paytm Wallet for free and make payments <br> in a jiffy at over 21 million stores, websites and apps.</p>
-        <button class="flex  rounded-full justify-between mt-12 w-72 mb-8 border-2 b0rder-black-800 ml-24 pt-3 pb-3 pl-6 pr-6 text-white gont-semibold bg-black w-60 items-center ">Download the App <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="white"></path></svg>  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="white"></path></svg></button>
+        <h1 class="flex flex-row text-2xl md:text-4xl font-bold  mt-16 ml-0 md:ml-24 self-center md:self-start">The Fastest Way to <br> Pay In-store & Online.</h1>
+        <div class="fourth-part-row-2-col-2 flex flex-col w-full justify-center items-center mt-4 mb-4 md:hidden">
+          <img src="./assets/moblie 2.webp" alt="">
+        </div>
+        <p class="flex flex-row  text-md md:text-lg mt-3 ml-6 md:ml-24 ">Load up your Paytm Wallet for free and make payments <br> in a jiffy at over 21 million stores, websites and apps.</p>
+        <button class="flex  rounded-full justify-between mt-12 w-72 mb-8 border-2 b0rder-black-800 ml-0 md:ml-24 pt-3 pb-3 pl-6 pr-6 text-white gont-semibold bg-black w-60 items-center self-center md:self-start">Download the App <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="white"></path></svg>  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="white"></path></svg></button>
       </div>
       <!-- fourth part row 2 col-2 -->
       
-      <div class="fourth-part-row-2-col-2 flex flex-col w-full justify-center items-center">
+      <div class="fourth-part-row-2-col-2 hidden md:flex flex-col w-full justify-center items-center">
         <img src="./assets/moblie 2.webp" alt="">
       </div>
     </div>
@@ -194,15 +200,18 @@
     <!-- fourth part row 3 col-1 -->
     <div class="fourth-part-row-3-col-1 flex flex-col w-full">
       <div class="upi-transfer flex flex-row">
-        <img src="./assets/upi transfer.png" alt="" width="80px" class="upi-transfer flex flex-row mt-24 ml-24 ">
+        <img src="./assets/upi transfer.png" alt="" width="80px" class="upi-transfer flex flex-row mt-24 ml-1 md:ml-24 ">
       <h3 class="upi-transfer flex flex-row mt-24 font-bold items-center ml-3">UPI Money<br>Transfer</h3>
       </div>
-      <h1 class="flex flex-row text-4xl font-bold mt-16 ml-24">Pay anyone directly <br> from your bank <br> account.</h1>
-      <p class="flex flex-row  text-lg mt-3 ml-24 ">Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm Wallet or <br> Directly from your Bank Account. Plus, send & receive <br> money from anyone.</p>
-      <button class="flex  rounded-full justify-between mt-12 w-72 mb-8 border-2 b0rder-black-800 ml-24 pt-3 pb-3 pl-6 pr-6 text-white gont-semibold bg-black w-60 items-center ">Download the App <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="white"></path></svg>  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="white"></path></svg></button>
+      <h1 class="flex flex-row text-2xl md:text-4xl font-bold  mt-16 ml-0 md:ml-24 self-center md:self-start">Pay anyone directly <br> from your bank <br> account.</h1>
+      <div class="fourth-part-row-3-col-2 flex flex-col w-full justify-center items-center mt-6 mb-6 md:hidden">
+        <img src="./assets/250 paid img.webp" width="80%" alt="">
+      </div>
+      <p class="flex flex-row  text-md md:text-lg mt-3 ml-6 md:ml-24">Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm Wallet or <br> Directly from your Bank Account. Plus, send & receive <br> money from anyone.</p>
+      <button class="flex  rounded-full justify-between mt-12 w-72 mb-8 border-2 b0rder-black-800 ml-0 md:ml-24 pt-3 pb-3 pl-6 pr-6 text-white gont-semibold bg-black w-60 items-center self-center md:self-start ">Download the App <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z" fill="white"></path></svg>  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z" fill="white"></path></svg></button>
     </div>
     <!-- fourth part row 3 col-2 -->
-    <div class="fourth-part-row-3-col-2 flex flex-col w-full justify-center items-center">
+    <div class="fourth-part-row-3-col-2 hidden md:flex flex-col w-full justify-center items-center">
       <img src="./assets/250 paid img.webp" alt="">
     </div>
   </div>
@@ -213,37 +222,40 @@
     <!-- fourth part row 4 col-1 -->
     <div class="fourth-part-row-4-col-1 flex flex-col w-full">
       <div class="paytm-postpaid flex flex-row">
-        <img src="./assets/paytm postpaid.webp" alt="" width="160px" class="upi-transfer flex flex-row mt-24 ml-24 ">
+        <img src="./assets/paytm postpaid.webp" alt="" width="160px" class="upi-transfer flex flex-row mt-24 ml-1 md:ml-24">
       </div>
-      <h1 class="flex flex-row text-4xl font-bold mt-16 ml-24">Want it? <br> No more waiting for it.</h1>
-      <p class="flex flex-row  text-lg mt-3 ml-24">With Paytm Postpaid, your wishlist doesn't have to be <br> on the waitlist. Shop for the things you want today and <br> pay for them next month.</p>
+      <h1 class="flex flex-row text-2xl md:text-4xl font-bold mt-16 ml-0 md:ml-24 self-center md:self-start">Want it? <br> No more waiting for it.</h1>
+      <div class="fourth-part-row-4-col-2 flex flex-col w-full ml-10 mt-6 mb-6 md:hidden">
+        <img src="./assets/shopping bag.webp" alt="" width="80%" >
+      </div>
+      <p class="flex flex-row  text-md md:text-lg mt-3 ml-6 md:ml-24">With Paytm Postpaid, your wishlist doesn't have to be <br> on the waitlist. Shop for the things you want today and <br> pay for them next month.</p>
       <button class="flex flex-row text-lg rounded-full mt-8  ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
     </div>
     <!-- fourth part row 4 col-2 -->
-    <div class="fourth-part-row-4-col-2 flex flex-col w-full justify-center items-center">
+    <div class="fourth-part-row-4-col-2 hidden md:flex flex-col w-full justify-center items-center">
       <img src="./assets/shopping bag.webp" alt="" class="p-12">
     </div>
   </div>
 
   <!-- fourth part row 5  -->
 
-  <div class="fourth-part-row-5 flex flex-row w-3/4 self-center mt-8 rounded-xl">
+  <div class="fourth-part-row-5 flex flex-col md:flex-row w-3/4 self-center mt-8 rounded-xl gap-8">
 
     <!-- fourth part row 5 col-1  -->
 
-    <div class="fourth-part-row-5-col-1 flex flex-col w-full mr-5 bg-white rounded-xl">
-      <img src="./assets/paytm hdfc.png" alt="" width="200px" class="upi-transfer flex flex-row mt-9 ml-16 ">
-      <h1 class="flex flex-row text-4xl font-bold mt-16 ml-16">Unlimited Cashback <br> Every time.</h1>
-      <p class="flex flex-row  text-lg mt-3 ml-16">Paytm HDFC Bank Select Credit Card. A Card <br> with assured Cashback and Incredible Offers.</p>
+    <div class="fourth-part-row-5-col-1 flex flex-col w-full mr-0 md:mr-5 bg-white rounded-xl">
+      <img src="./assets/paytm hdfc.png" alt="" width="200px" class="upi-transfer flex flex-row mt-16 ml-1 md:ml-24 ">
+      <h1 class="flex flex-row text-2xl md:text-4xl font-bold mt-16 ml-16">Unlimited Cashback <br> Every time.</h1>
+      <p class="flex flex-row  text-md md:text-lg mt-10 md:mt-3 ml-8 md:ml-16">Paytm HDFC Bank Select Credit Card. A Card <br> with assured Cashback and Incredible Offers.</p>
       <img src="./assets/sumit sharma.webp" alt="" width="500px" class="flex flex-row sumit-sharma self-center mt-20">
     </div>
 
     <!-- fourth part row 5 col-2  -->
     
-    <div class="fourth-part-row-5-col-2 flex flex-col w-full ml-5 bg-white rounded-xl">
-      <img src="./assets/paytm sbi.png" alt="" width="200px" class="upi-transfer flex flex-row mt-24 ml-16 ">
-      <h1 class="flex flex-row text-4xl font-bold mt-16 ml-16">India's Most <br> Sincere Credit Card.</h1>
-      <p class="flex flex-row  text-lg mt-3 ml-16">Paytm SBI Select -  With Intelligent <BR> Features and Great Rewards That Never Expires</BR> </p>
+    <div class="fourth-part-row-5-col-2 flex flex-col w-full ml-0 md:ml-5 bg-white rounded-xl">
+      <img src="./assets/paytm sbi.png" alt="" width="200px" class="upi-transfer flex flex-row mt-24 ml-2 md:ml-16 ">
+      <h1 class="flex flex-row text-2xl md:text-4xl font-bold mt-16 ml-16">India's Most <br> Sincere Credit Card.</h1>
+      <p class="flex flex-row text-md md:text-lg mt-10 md:mt-3 ml-8 md:ml-16">Paytm SBI Select -  With Intelligent <BR> Features and Great Rewards That Never Expires</BR> </p>
       <img src="./assets/meha sinha.webp" alt="" width="500px" class="flex flex-row sumit-sharma self-center mt-20">
     </div>
   </div> 
@@ -256,22 +268,25 @@
 
   <!-- fifth part first row-1 -->
   <div class="fifth-part-row-1 flex flex-row">
-    <h1 class="text-5xl font-bold w-full ml-36 mt-32 mb-16">Financial Services by Paytm</h1>
+    <h1 class="text-3xl md:text-5xl font-bold w-full ml-0 md:ml-36 mt-20 md:mt-32 mb-16 self-center md:self-start">Financial Services by Paytm</h1>
   </div>
 
   <!-- fifth part  row-2 -->
-  <div class="fifth-part-row-2 flex flex-row pt-24 pb-20">
+  <div class="fifth-part-row-2 flex flex-col md:flex-row pt-24 pb-20">
 
     <!-- fifth part row 2 col-1 -->
-    <div class="fifth-part-row-2-col-1 flex flex-col w-full ml-32">
-      <img src="./assets/payment bank logo.png" alt="" width="220px" class="flex flex-row">
-      <h3 class="flex flex-row text-4xl font-bold mt-20">India's Most Sincere <br> Bank</h3>
-      <p class="flex flex-row text-xl mt-16 font-semibold">Paytm Payments Bank offers secure, transparent and <br> risk-free banking at your fingertips. With instant <br> account opening, virtual debit card and zero balance <br> requirements, experience the future of banking today.</p>
-      <button class="flex flex-row text-lg rounded-full mt-8  ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
+    <div class="fifth-part-row-2-col-1 flex flex-col w-full ml-0 md:ml-32 items-center md:items-start">
+      <img src="./assets/payment bank logo.png" alt="" width="220px" class="flex flex-row self-start ml-3 md:ml-0">
+      <h3 class="flex flex-row text-2xl md:text-4xl font-bold mt-10 md:mt-20">India's Most Sincere <br> Bank</h3>
+      <div class="fifth-part-row-2-col-2 flex flex-row w-full justify-center mt-6 mb-6 md:hidden ">
+        <img src="./assets/payment bank mobile.webp" alt="" width="350px" class="flex flex-row self-center ">
+      </div>
+      <p class="flex flex-row text-md md:text-xl mt-8 md:mt-16 font-semibold">Paytm Payments Bank offers secure, transparent and <br> risk-free banking at your fingertips. With instant <br> account opening, virtual debit card and zero balance <br> requirements, experience the future of banking today.</p>
+      <button class="flex flex-row text-md md:text-lg rounded-full mt-8  ml-0 md:ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
     </div>
 
     <!-- fifth part row 2 col-2-->
-    <div class="fifth-part-row-2-col-2 flex felx-row w-full justify-center mr-20">
+    <div class="fifth-part-row-2-col-2 hidden md:flex felx-row w-full justify-center mr-20">
       <img src="./assets/payment bank mobile.webp" alt="" width="450px" class="flex flex-row self-center ">
     </div>
   </div>
@@ -279,17 +294,20 @@
   <!-- fifth part row 3 starts here -->
   <div class="fifth-part-row-3 flex flex-row pt-24 pb-20 bg-mygray1">
     <!-- fifth part row 3 col 1 -->
-    <div class="fifth-part-row-3-col-1 w-full  items-center justify-center ml-32">
+    <div class="fifth-part-row-3-col-1 w-full hidden md:flex items-center justify-center ml-32">
       <img src="./assets/paytm money mobile.webp" alt="" width="550px" class="fifth-part-row-3-col-1 flex flex-row self-center"> 
     </div>
 
     <!-- fifth part row 3 col-2 -->
 
-    <div class="fifth-part-row-2-col-2 flex flex-col w-full mr-20 ">
-      <img src="./assets/paytm money logo.webp" alt="" width="220px" class="flex flex-row">
-      <h3 class="flex flex-row text-4xl font-bold mt-20">Build Long Term <br> Wealth And Achieve <br> Your Goals.</h3>
-      <p class="flex flex-row text-xl mt-16 font-semibold">Investing on Paytm Money is transparent, low-cost and <br>commission-free. Buy stocks & mutual funds that can <br> help you create wealth & realise your dreams.</p>
-      <button class="flex flex-row text-lg rounded-full mt-8  ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
+    <div class="fifth-part-row-2-col-2 flex flex-col w-full mr-0 md:mr-20 ">
+      <img src="./assets/paytm money logo.webp" alt="" width="220px" class="flex flex-row ml-2">
+      <h3 class="flex flex-row text-2xl md:text-4xl font-bold mt-20 self-center md:self-start">Build Long Term <br> Wealth And Achieve <br> Your Goals.</h3>
+      <div class="fifth-part-row-3-col-1 w-full justify-center mt-6 mb-6 md:hidden">
+        <img src="./assets/paytm money mobile.webp" alt="" width="550px" class="fifth-part-row-3-col-1 flex flex-row self-center"> 
+      </div>
+      <p class="flex flex-row text-md md:text-xl mt-16 font-semibold self-center md:self-start">Investing on Paytm Money is transparent, low-cost and <br>commission-free. Buy stocks & mutual funds that can <br> help you create wealth & realise your dreams.</p>
+      <button class="flex flex-row text-lg rounded-full mt-8 ml-0 md:ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6 self-center md:self-start">Learn More ></button>
     </div>
   </div>
   <!-- fifth part row 3 ends here -->
@@ -298,15 +316,18 @@
   <div class="fifth-part-row-4 flex flex-row pt-24 pb-20">
 
     <!-- fifth part row 4 col-1 -->
-    <div class="fifth-part-row-4-col-1 flex flex-col w-full ml-32">
+    <div class="fifth-part-row-4-col-1 flex flex-col w-full ml-0 md:ml-32">
       <img src="./assets/paytm insurance booking.webp" alt="" width="220px" class="flex flex-row">
-      <h3 class="flex flex-row text-4xl font-bold mt-20">Insurance made easy.</h3>
-      <p class="flex flex-row text-xl mt-16 font-semibold">Buying insurance does not have to be tedious, time- <br> consuming & confusing. Paytm Insurance removes the <br> worry of getting insured by making it simple, <br> convenient & easy-to-understand.</p>
-      <button class="flex flex-row text-lg rounded-full mt-8  ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
+      <h3 class="flex flex-row text-2xl md:text-4xl font-bold mt-20 self-center md:self-start">Insurance made easy.</h3>
+      <div class="fifth-part-row-2-col-2 flex felx-row w-full justify-center mr-20 md:hidden">
+        <img src="./assets/insnurance mobile.webp" alt="" width="350px" class="flex flex-row self-center mt-6 mb-6 ">
+      </div>
+      <p class="flex flex-row text-md md:text-xl mt-16 font-semibold self-center md:self-start">Buying insurance does not have to be tedious, time- <br> consuming & confusing. Paytm Insurance removes the <br> worry of getting insured by making it simple, <br> convenient & easy-to-understand.</p>
+      <button class="flex flex-row text-lg rounded-full mt-8  ml-0 md:ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6 self-center md:self-start">Learn More ></button>
     </div>
 
     <!-- fifth part row 4 col-2-->
-    <div class="fifth-part-row-2-col-2 flex felx-row w-full justify-center mr-20">
+    <div class="fifth-part-row-2-col-2 hidden md:flex felx-row w-full justify-center mr-20">
       <img src="./assets/insnurance mobile.webp" alt="" width="450px" class="flex flex-row self-center ">
     </div>
   </div>
@@ -316,17 +337,20 @@
 
   <div class="fifth-part-row-5 flex flex-row pt-24 pb-20 bg-mygray1">
     <!-- fifth part row 5 col 1 -->
-    <div class="fifth-part-row-5-col-1 w-full  items-center justify-center ml-32">
+    <div class="fifth-part-row-5-col-1 hidden md:flex w-full  items-center justify-center ml-32">
       <img src="./assets/personal loan mobile.webp" alt="" width="550px" class="fifth-part-row-3-col-1 flex flex-row self-center"> 
     </div>
 
     <!-- fifth part row 5 col-2 -->
 
-    <div class="fifth-part-row-4-col-2 flex flex-col w-full mr-20 ">
+    <div class="fifth-part-row-4-col-2 flex flex-col w-full mr-0 md:mr-20 ">
       <img src="./assets/personal loan logo.png" alt="" width="220px" class="flex flex-row">
-      <h3 class="flex flex-row text-4xl font-bold mt-20">Get a Personal Loan in <br> 2 Minutes.</h3>
-      <p class="flex flex-row text-xl mt-16 font-semibold">Paytm offers India's quickest multi-purpose, hassle-free loan. It <br> is 100% digital, transparent and paperless.</p>
-      <button class="flex flex-row text-lg rounded-full mt-8  ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
+      <h3 class="flex flex-row text-2xl md:text-4xl font-bold mt-20 self-center md:self-start">Get a Personal Loan in <br> 2 Minutes.</h3>
+      <div class="fifth-part-row-5-col-1 w-max  items-center justify-center md:hidden mt-6 mb-6 self-center">
+        <img src="./assets/personal loan mobile.webp" alt="" width="350px" > 
+      </div>
+      <p class="flex flex-row text-md md:text-xl mt-16 font-semibold self-center md:self-start">Paytm offers India's quickest multi-purpose, hassle-free loan. It <br> is 100% digital, transparent and paperless.</p>
+      <button class="flex flex-row text-lg rounded-full mt-8  ml-0 md:ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6 self-center md:self-start">Learn More ></button>
     </div>
   </div>
   <!-- fifth part row 3 ends here -->
@@ -338,21 +362,24 @@
 
   <!-- sixth part first row- -->
   <div class="fifth-part-row-1 flex flex-row">
-    <h1 class="text-5xl font-bold w-full ml-36 mt-32 mb-16">Business Services by Paytm</h1>
+    <h1 class="text-3xl md:text-5xl font-bold w-full ml-2 md:ml-36 mt-32 mb-16">Business Services by Paytm</h1>
   </div>
 
   <!-- sixth part  row-2 -->
-  <div class="sixth-part-row-2 flex flex-row pt-24 pb-8 ">
+  <div class="sixth-part-row-2 flex flex-row pt-6 md:pt-24 pb-8 ">
 
     <!-- sixth part row 2 col-1 -->
-    <div class="sixth-part-row-2-col-1 flex flex-col w-full ml-40 bg-mygray1 pb-20 pt-20">
-      <h3 class="flex flex-row text-4xl font-bold mt-20 ml-20">Accept payments <br> online with ease</h3>
-      <p class="flex flex-row text-xl mt-8 ml-20 font-semibold">Grow your business with the payment gateway that <br> powers India’s largest brands and even the Paytm App.</p>
-      <button class="flex flex-row text-lg rounded-full mt-8  ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
+    <div class="sixth-part-row-2-col-1 flex flex-col w-full ml-0 md:ml-40 bg-mygray1 pb-20 pt-10 md:pt-20">
+      <h3 class="flex flex-row text-2xl md:text-4xl font-bold mt-20 ml-0 md:ml-20 self-center md:self-start">Accept payments <br> online with ease</h3>
+      <div class="sixth-part-row-2-col-2 flex felx-row w-full justify-end bg-mygray1 pb-20 pt-20 md:hidden">
+        <img src="./assets/7998.webp" alt="" width="450px" class="flex flex-row ">
+      </div>
+      <p class="flex flex-row text-md md:text-xl mt-8 ml-0 md:ml-20 font-semibold self-center md:self-start">Grow your business with the payment gateway that <br> powers India’s largest brands and even the Paytm App.</p>
+      <button class="flex flex-row text-lg rounded-full mt-8  ml-0 md:ml-24 mb-10 md:mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6 self-center md:self-start">Learn More ></button>
     </div>
 
     <!-- fifth part row 2 col-2-->
-    <div class="sixth-part-row-2-col-2 flex felx-row w-full justify-end mr-40 bg-mygray1 pb-20 pt-20">
+    <div class="sixth-part-row-2-col-2 hidden md:flex felx-row w-full justify-end mr-40 bg-mygray1 pb-20 pt-20">
       <img src="./assets/7998.webp" alt="" width="450px" class="flex flex-row ">
     </div>
   </div>
@@ -363,14 +390,17 @@
   <div class="sixth-part-row-3 flex flex-row pt-24 pb-8">
 
     <!-- sixth part row 3 col-1 -->
-    <div class="sixth-part-row-3-col-1 flex flex-col w-full ml-40 bg-mygray1 pb-20 pt-20">
-      <h3 class="flex flex-row text-4xl font-bold mt-20 ml-20">In-shop payments <br> powered by Paytm.</h3>
-      <p class="flex flex-row text-xl mt-8 ml-20 font-semibold">Millions of small & big businesses use Paytm to accept <br> payments anywhere any time with a wide range of <br> solutions for all kind of merchants</p>
-      <button class="flex flex-row text-lg rounded-full mt-8  ml-24 mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6">Learn More ></button>
+    <div class="sixth-part-row-3-col-1 flex flex-col w-full ml-0 md:ml-40 bg-mygray1 pb-20 pt-10 md:pt-20">
+      <h3 class="flex flex-row text-2xl md:text-4xl font-bold mt-20 ml-0 md:ml-20 self-center md:self-start">In-shop payments <br> powered by Paytm.</h3>
+      <div class="sixth-part-row-3-col-2 flex felx-row w-full justify-end bg-mygray1 pb-20 pt-20 md:hidden">
+        <img src="./assets/98976945.webp" alt="" width="450px" class="flex flex-row  ">
+      </div>
+      <p class="flex flex-row text-md md:text-xl mt-8 ml-0 md:ml-20 font-semibold self-center md:self-start">Millions of small & big businesses use Paytm to accept <br> payments anywhere any time with a wide range of <br> solutions for all kind of merchants</p>
+      <button class="flex flex-row text-lg rounded-full mt-8 ml-0 md:ml-24 mb-10 md:mb-24 w-40 bg-myblue2 text-white justify-center pt-3 pb-3 pl-6 pr-6 self-center md:self-start">Learn More ></button>
     </div>
 
     <!-- fifth part row 2 col-2-->
-    <div class="sixth-part-row-3-col-2 flex felx-row w-full justify-end mr-40 bg-mygray1 pb-20 pt-20">
+    <div class="sixth-part-row-3-col-2 hidden md:flex felx-row w-full justify-end mr-40 bg-mygray1 pb-20 pt-20">
       <img src="./assets/98976945.webp" alt="" width="450px" class="flex flex-row  ">
     </div>
   </div>
@@ -386,12 +416,12 @@
   <!-- seventh part row 1 starts here -->
 
   <div class="seventh-part-row-1 flex flex-col ">
-    <h1 class="text-5xl font-bold mt-32 ml-32 mb-16">Business Tools to help <br> your business grow</h1>
+    <h1 class="text-3xl md:text-5xl font-bold mt-16 md:mt-32 ml-2 md:ml-32 mb-16">Business Tools to help <br> your business grow</h1>
   </div>
 
   <!-- seventh part row 2 starts here -->
 
-  <div class="seventh-part-row-2 flex flex-row justify-around pt-8 pr-24 pl-24 pb-32">
+  <div class="seventh-part-row-2 flex flex-col md:flex-row justify-around pt-8 pr-0 md:pr-24 pl-0 md:pl-24 pb-32 items-center gap-12 md:gap-0">
 
     <div class="tool-1 flex flex-col items-start">
       <img src="./assets/business tools 1.webp" alt="" width="200px" class="flex flex-row">
@@ -431,35 +461,35 @@
 <div class="eighth-part flex flex-col bg-lightblue">
    <!-- eighth part row-1 -->
 
-   <div class="eighth-part-row-1 flex flex row justify-around  mr-24 ml-24  mt-32 mb-4 bg-white">
+   <div class="eighth-part-row-1 flex flex-col md:flex-row justify-around  mr-24 ml-24  mt-32 mb-4 bg-white gap-6">
 
-     <div class="col-1 flex flex-col items-start">
+     <div class="col-1 flex flex-col items-start bg-white p-6 md:p-0">
       <img src="./assets/paytm money logo.webp" alt="" width="150px">
       <p class="mt-10">Get started on wealth <br> creation journey with Zero <br> brokerage fee & no hidden <br> charges.</p>
       <button class="mt-2 text-myblue font-medium text-md ">Learn More.</button>
      </div>
 
-     <div class="col-2 flex flex-col bg-myblue rounded-xl items-center">
+     <div class="col-2 flex flex-col bg-myblue rounded-xl items-center p-6 md:p-0">
       <img src="./assets/invest in stock.webp" alt="" width="160px" class="pt-1 pl-2 pr-2">
       <h3 class="text-lg font-medium text-white p-3">Invest in <br> Stocks</h3>
      </div>
 
-     <div class="col-3 flex flex-col bg-myblue rounded-xl items-center">
+     <div class="col-3 flex flex-col bg-myblue rounded-xl items-center p-6 md:p-0">
       <img src="./assets/ipo.webp" alt="" width="160px" class="pt-1 pl-2 pr-2">
       <h3 class="text-lg font-medium text-white p-3">Apply For IPO</h3>
      </div>
 
-     <div class="col-4 flex flex-col bg-myblue rounded-xl items-center">
+     <div class="col-4 flex flex-col bg-myblue rounded-xl items-center p-6 md:p-0">
       <img src="./assets/etf.webp" alt="" width="160px" class="pt-1 pl-2 pr-2">
       <h3 class="text-lg font-medium text-white p-3">Invst In <br> ETFs</h3>
      </div>
 
-     <div class="col-5 flex flex-col bg-myblue rounded-xl items-center">
+     <div class="col-5 flex flex-col bg-myblue rounded-xl items-center p-6 md:p-0">
       <img src="./assets/gold.webp" alt="" width="160px" class="pt-1 pl-2 pr-2">
       <h3 class="text-lg font-medium text-white p-3">Buy Gold</h3>
      </div>
 
-     <div class="col-6 flex flex-col bg-myblue rounded-xl items-center">
+     <div class="col-6 flex flex-col bg-myblue rounded-xl items-center p-6 md:p-0">
       <img src="./assets/mutual fund.webp" alt="" width="160px" class="pt-1 pl-2 pr-2">
       <h3 class="text-lg font-medium text-white p-3">Invest In <br> Mutual Fund</h3>
      </div>
@@ -468,7 +498,7 @@
 
     <!-- eighth part row 2 starts -->
 
-    <div class="eighth-part-row-2 flex flex row justify-around  mr-24 ml-24  mt-4 mb-32 bg-white">
+    <div class="eighth-part-row-2 flex flex-col md:flex-row justify-around  mr-24 ml-24  mt-4 mb-32 bg-white gap-6 items-center">
 
       <div class="col-1 flex flex-col items-start">
        <img src="./assets/travel.webp" alt="" width="150px">
@@ -499,7 +529,7 @@
        <h3 class="flex text-lg font-bold text-white mt-4 ml-3">Sanitised Bus <br> Option With <br> Travel Safe+</h3>
       </div>
 
-      <div class="col-6 flex flex-col bg-myblue rounded-xl justify-start h-56 w-40 ">
+      <div class="col-6 flex flex-col bg-myblue rounded-xl justify-start h-56 w-40 mb-6 md:mb-0">
        <img src="./assets/train  cashback.webp" alt="" width="80px" class="pt-1 pr-2 mt-8 ml-3 ">
        <h3 class="flex text-lg font-bold text-white mt-4 ml-3">Hassle Free <br> Train Ticket <br> Bookings</h3>
       </div>
@@ -509,13 +539,13 @@
 <!-- eighth part ends here -->
 
 <!-- last part starts here -->
-<div class="last-part flex flex-row mt-32 mb-32 ml-32 mr-32">
-  <div class="col-1 flex flex-row w-full justify-around">
+<div class="last-part flex flex-row mt-16 md:mt-32 mb-16 md:mb-32 ml-32 mr-32">
+  <div class="col-1 hidden md:flex flex-row w-full justify-around">
     <h3 class="flex flex-row text-xl font-semibold">Download Paytm App <br> to Pay from anywhere</h3>
     <img src="./assets/app store.svg" alt="" class="last-part-1-img ml-6">
     <img src="./assets/google play.svg" alt="" class="last-part-2-img mr-10">
   </div>
-  <div class="col-2 flex flex-row w-full justify-end">
+  <div class="col-2 flex flex-row w-full justify-around md:justify-end">
     <img src="./assets/twitter.svg" alt="" width="25px" class="1 mr-8">
     <img src="./assets/insta.svg" alt="" width="25px" class="2 mr-8">
     <img src="./assets/facebook.svg" alt="" width="12px" class="3 mr-2">
